@@ -172,6 +172,7 @@ class filamentsensorngPlugin(octoprint.plugin.StartupPlugin,
 
 __plugin_name__ = "Filament Sensor NG"
 __plugin_version__ = "1.0.2"
+__plugin_pythoncompat__ = ">=2.7,<4"
 
 def __plugin_load__():
     global __plugin_implementation__
